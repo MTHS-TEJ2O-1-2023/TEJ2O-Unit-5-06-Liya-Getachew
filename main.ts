@@ -13,7 +13,7 @@ basic.clearScreen()
 basic.showIcon(IconNames.Duck)
 
 // find distance
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   basic.clearScreen()
   distance = sonar.ping(DigitalPin.P1, DigitalPin.P2, PingUnit.Centimeters)
   basic.showNumber(distance)
